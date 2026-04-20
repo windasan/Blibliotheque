@@ -41,7 +41,7 @@ export interface Book {
   author:         string;
   cover_url:      string | null;
   isbn:           string | null;
-  category:       string[];
+  category:       string;
   status:         BookStatus;
   rating:         number | null;  // 1–5
   synopsis:       string | null;
